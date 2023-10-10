@@ -9,15 +9,15 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "Echo Hou",
     url: "https://mister-hope.com",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "/coding.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
@@ -32,41 +32,12 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
-    description: "一个前端开发者",
+    description: "25届本科学生，后端研发攻城狮",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+      Gmail: "mailto:houbingzhi123@gmail.com",
+      // QQ: "https://3053322682@qq.com",
+      // Wechat: "WLB_Hou",
     },
   },
 
