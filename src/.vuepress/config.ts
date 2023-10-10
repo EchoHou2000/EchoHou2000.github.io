@@ -7,7 +7,7 @@ export default defineUserConfig({
   // theme: hopeTheme({
   //   sidebar: "heading",
   // }),
-  base: "/https://github.com/EchoHou2000/blogs/",
+  base: "/blogs/",
 
   lang: "zh-CN",
   title: "Echo的学习之路",
