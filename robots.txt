@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://mister-hope.github.io/https://github.com/EchoHou2000/blogs/sitemap.xml
