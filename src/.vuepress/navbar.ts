@@ -8,7 +8,7 @@ export default navbar([
     link: '/posts/leetcode/'
   },
   {
-    text: 'Java基础',
+    text: 'Spring学习',
     icon: 'pen-to-square',
     link: '/posts/Java/'
   },
