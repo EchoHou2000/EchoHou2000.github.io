@@ -3,6 +3,10 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
-# 关于我
+# About Me
 
-将你的个人介绍和档案放置在此处。
+# 我的火星船票
+
+NASA 星球科学总监 Jim Green 表示，把自己姓名发送到火星上，也是参与火星以及未来太空探险旅行的一种方式。
+
+![Alt text](image.png)
