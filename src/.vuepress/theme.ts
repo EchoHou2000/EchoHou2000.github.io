@@ -27,7 +27,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "希望Feifei可以天天开心~~~",
 
   displayFooter: true,
 
