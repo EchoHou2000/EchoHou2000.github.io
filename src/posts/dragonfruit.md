@@ -1,5 +1,4 @@
 ---
-icon: book
 date: 2023-10-13
 category:
   - Java基础

@@ -1,6 +1,4 @@
 ---
-# sidebar: heading
-icon: book
 date: 2023-10-10
 category:
   - 计算机网络
