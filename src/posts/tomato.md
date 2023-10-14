@@ -1,22 +1,19 @@
 ---
-cover: /assets/images/cover2.jpg
-icon: pen-to-square
-date: 2022-01-12
+icon: book
+date: 2023-10-13
 category:
-  - 蔬菜
+  - Java基础
 tag:
-  - 红
-  - 圆
-star: true
-sticky: true
+  - 重要
+  - 面试
 ---
 
-# 待写
+# 抽象类和接口的区别是什么
 
-## 标题 2
+抽象类的声明是``abstract class 类名``，接口的声明是``public interface 接口名``。
 
-这里是内容。
+一个类只能继承一个抽象类，但是能实现多个接口。
 
-### 标题 3
+接口主要是对类的行为进行约束，一个类实现某个接口也就拥有了对应的行为。抽象类主要用于**代码复用**，强调**所属关系**。
 
-这里是内容。
+接口中的成员变量只能是``public static final``类型的，并且要有初始值，不能被修改。抽象类中的成员变量默认default，并且可以被重新赋值和修改。
