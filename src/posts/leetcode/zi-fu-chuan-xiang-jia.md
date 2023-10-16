@@ -1,0 +1,47 @@
+---
+date: 2023-10-15
+category:
+  - 模拟
+tag:
+  - 面试高频
+  - 双指针
+---
+
+# 字符串相加
+
+给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和并同样以字符串形式返回。
+
+你不能使用任何內建的用于处理大整数的库（比如 BigInteger）， 也不能直接将输入的字符串转换为整数形式。
+
+```
+输入：num1 = "11", num2 = "123"
+输出："134"
+```
+
+## 思路
+
+如果字符串不能转成整型再相加，我们可以模拟一下两数相加的过程。要注意如何进位，进位后当前结果是什么，下一个结果怎么计算，如何处理溢出情况。
+
+```java
+public String calculateString(String num1,String num2){
+  StringBuilder res = new StringBuilder("");
+  int i = num1.length()-1;
+  int j = num2.length()-1;
+  int carry = 0;
+  while(i >= 0 || j >= 0){
+    // 将字符串暂时处理成整数的操作
+    int m = i >= 0 ? num1.charAt(i)-'0' : 0;
+    int n = j >= 0 ? num2.charAt(j)-'0' : 0;
+    int temp = m + n + carry;
+    carry = temp / 10;
+    res.append(temp%10);
+    // 不要忘记移动指针
+    i--;
+    j--;
+  }
+  if(carry == 1){
+    res.append(carry);
+  }
+  return res.reverse().toString();
+}
+```
