@@ -10,7 +10,7 @@ category:
 
 如果我们在feature分支开发一段时间后，想拉取master分支的最新代码合并到feature上，可以用git pull --rebase。feature是待变基分支，master是基分支。
 
-![](https://img-blog.csdnimg.cn/12b959efcc454da5a15b9fdec493d61b.png?)
+![](https://img-blog.csdnimg.cn/12b959efcc454da5a15b9fdec493d61b.png)
 
 比如说feature是master节点B处拉出来的一条新分支，在feature分支开发一段时间后（此时是A->B->C->D），要拉取master最新的代码合到feature上（比如master分支上在B节点后新开发了M）。这时候需要把feature上的提交暂存下来，然后删掉feature的提交记录，找到master的最新记录，再把暂存的feature提交接上去。
 
