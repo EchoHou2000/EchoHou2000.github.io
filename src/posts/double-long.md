@@ -3,11 +3,10 @@ date: 2023-10-13
 category:
   - Java基础
 tag:
-  - 面试
   - 基础语法
 ---
 
-# double类型的值可以赋给long变量吗？
+# double类型的值可以赋给long变量吗
 
 在不进行强制转换的情况下，double类型的值可以赋给long变量吗？
 
