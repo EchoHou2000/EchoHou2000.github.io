@@ -5,7 +5,7 @@ export default navbar([
   {
     text: '刷题笔记',
     icon: 'pen-to-square',
-    link: '/posts/leetcode/'
+    link: '/posts/leetcode/1.md'
   },
   {
     text: 'Java学习',
