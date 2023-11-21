@@ -1,11 +1,9 @@
 ---
 date: 2023-10-11
 category:
-  - Java
-  - Spring
+  - Web开发
 tag:
-  - 重要
-  - 原创
+  - Spring
 ---
 
 # 我是怎么用Spring AOP的？
@@ -18,6 +16,8 @@ tag:
 所以我们需要把这些公共的代码抽出来，我们编写业务代码的时候，只需要关注具体不同的逻辑即可，不用写大量重复性的代码。而具体的业务逻辑相当于一个"织入"进去的操作。
 
 在这个过程中，我们抽出来不是关键业务的同一类方法，并且封装成一个类用来判断权限。
+
+**Spring AOP**就是在某些方法前后执行一些通用的操作，而这些操作又不会影响程序本身的正常执行，比如日志操作、权限判断。
 
 我们可以使用Spring AOP的技术来实现，在AOP中，这个封装成的类，叫切面，可以用@Aspect实现。我们在调用每一个接口的时候，都需要先判断权限，所以给切面中具体的类加上@Before注解，代表在目标方法调用之前执行。
 
@@ -60,6 +60,7 @@ public class ApiLimitedRoleAspect {
 
     // @Pointcut 表示切点的应用范围
     // 这里指发挥作用的注解具体是哪一个
+    // 即使check为空，也仍要写切点，因为不写切点，程序就无法被AOP代理，不知道应用范围
     @Pointcut("@annotation(com.houbingzhi.bilibili.domain.annotation.ApiLimitedRole)")
     public void check(){
 
